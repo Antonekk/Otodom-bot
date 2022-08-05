@@ -31,5 +31,6 @@ while True:
 
         with open('previous.txt', "w" , encoding='utf8') as file:
             file.write(newest)
-    print("Czekam minutę")
-    time.sleep(60)
+    #Configurate refreshing time
+    print("Czekam 5 minut")
+    time.sleep(300)
